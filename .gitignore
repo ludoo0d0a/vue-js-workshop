@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .DS_Store
 node_modules/
 dist/
@@ -15,3 +16,7 @@ package-lock.json
 *.ntvs*
 *.njsproj
 *.sln
+=======
+_book
+node_modules
+>>>>>>> 400245319e1aa0c089819b6c9fd2b7062e9d4881

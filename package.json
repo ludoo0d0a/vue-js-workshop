@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "jayway-demo",
   "version": "1.0.0",
   "description": "A Vue.js project",
@@ -87,4 +88,36 @@
     "last 2 versions",
     "not ie <= 8"
   ]
+=======
+  "name": "vue-js-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:clean": "rimraf _book",
+    "docs:prepare": "gitbook install",
+    "docs:watch": "npm run docs:prepare && gitbook serve",
+    "docs:build": "npm run docs:prepare && rm -rf _book && gitbook build",
+    "docs:publish": "npm run docs:clean && npm run docs:build && cd _book && git init && git commit --allow-empty -m 'Update docs' && git checkout -b gh-pages && touch .nojekyll && git add . && git commit -am 'Update docs' && git push git@github.com:jayway/vue-js-workshop.git gh-pages --force",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayway/vue-js-workshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayway/vue-js-workshop/issues"
+  },
+  "homepage": "https://github.com/jayway/vue-js-workshop#readme",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.0"
+  },
+  "dependencies": {
+    "gitbook-plugin-ga": "^1.0.1",
+    "gitbook-plugin-github": "^2.0.0",
+    "gitbook-plugin-prism": "^2.2.1"
+  }
+>>>>>>> 400245319e1aa0c089819b6c9fd2b7062e9d4881
 }

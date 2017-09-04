@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # vue-js-workshop jayway-demo
 
 > A Vue.js project
@@ -41,3 +42,14 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 ## TODO
 https://jayway.github.io/vue-js-workshop/docs/update-products.html
 
+=======
+# Jayway Vue.js 2.0 workshop
+
+This is a visual Vue.js 2.0 workshop where you will be building an e-commerce application (Jaystore). Hopefully this workshop will give you a feel for how you can use different techniques depending on the size of your application and how to handle different challenges when a Vue.js 2.0 app evolves in size and complexity.
+
+![Jaystore product catalog image](/docs/images/jaystore-product-catalog.png)
+
+![Jaystore manage products image](/docs/images/jaystore-manage-products.png)
+
+[Let's begin!](https://jayway.github.io/vue-js-workshop/docs/overview.html)
+>>>>>>> 400245319e1aa0c089819b6c9fd2b7062e9d4881
