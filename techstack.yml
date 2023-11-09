@@ -1,0 +1,971 @@
+repo_name: ludoo0d0a/vue-js-workshop
+report_id: a2ddafc1dab52ff3295b9aaae9da659a
+repo_type: Public
+timestamp: '2023-11-09T21:33:37+00:00'
+requested_by: ludoo0d0a
+provider: github
+branch: master
+detected_tools_count: 68
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source: api/package.json
+  last_updated_by: Ludovic Valente
+  last_updated_on: 2017-08-17 13:40:08.000000000 Z
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2016-09-06 06:56:36.000000000 Z
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.15.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: api/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Ludovic Valente
+  last_updated_on: 2017-08-17 13:40:08.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2016-09-06 06:56:36.000000000 Z
+- name: Vue.js
+  description: A progressive framework for building user interfaces
+  website_url: http://vuejs.org/
+  version: 2.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2016-09-06 06:56:36.000000000 Z
+- name: css-loader
+  description: Helps webpack to collect CSS from all the css files
+  website_url: https://github.com/webpack-contrib/css-loader
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: vuex
+  description: Centralized State Management for Vue.js.
+  website_url: https://vuex.vuejs.org
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/6705/6128107.png
+  detection_source: exercise-files/async-api/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 6.26.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Ludovic Valente
+  last_updated_on: 2017-08-17 13:40:08.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: test/unit/.eslintrc
+  last_updated_by: Ludovic Valente
+  last_updated_on: 2017-08-17 13:40:08.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2016-09-06 06:56:36.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source: api/package.json
+  last_updated_by: Ludovic Valente
+  last_updated_on: 2017-08-17 13:40:08.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 2.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2016-09-29 13:36:17.000000000 Z
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: cssnano
+  description: A modular minifier, based on the PostCSS ecosystem. Created by @ben_eb.
+  website_url: http://cssnano.co/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/6612/ehMiE-wz_normal.jpg
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: babel-core
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/babel-core
+  version: 6.26.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15798/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: babel-eslint
+  description: Custom parser for ESLint
+  package_url: https://www.npmjs.com/babel-eslint
+  version: 7.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15803/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: babel-loader
+  description: Babel module loader for webpack
+  package_url: https://www.npmjs.com/babel-loader
+  version: 7.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: babel-plugin-transform-runtime
+  description: Externalise references to helpers and builtins
+  package_url: https://www.npmjs.com/babel-plugin-transform-runtime
+  version: 6.23.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15849/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: babel-preset-env
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/babel-preset-env
+  version: 1.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15814/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: babel-preset-stage-2
+  description: Babel preset for stage 2 plugins
+  package_url: https://www.npmjs.com/babel-preset-stage-2
+  version: 6.24.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15891/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: babel-register
+  description: Babel require hook
+  package_url: https://www.npmjs.com/babel-register
+  version: 6.26.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15865/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: body-parser
+  description: Node.js body parsing middleware
+  package_url: https://www.npmjs.com/body-parser
+  version: 1.17.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15906/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: api/package-lock.json
+  detection_source: api/package.json
+  last_updated_by: Ludovic Valente
+  last_updated_on: 2017-08-17 13:40:08.000000000 Z
+- name: connect-history-api-fallback
+  description: Provides a fallback for non-existing directories so that the HTML 5
+    history API can be used
+  package_url: https://www.npmjs.com/connect-history-api-fallback
+  version: 1.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16214/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: copy-webpack-plugin
+  description: Copy files &amp;&amp; directories with webpack
+  package_url: https://www.npmjs.com/copy-webpack-plugin
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15941/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: cors
+  description: Node.js CORS middleware
+  package_url: https://www.npmjs.com/cors
+  version: 2.8.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: api/package-lock.json
+  detection_source: api/package.json
+  last_updated_by: Ludovic Valente
+  last_updated_on: 2017-08-17 13:40:08.000000000 Z
+- name: eslint-config-airbnb
+  description: Airbnb's ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb
+  version: 10.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15857/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: api/package-lock.json
+  detection_source: api/package.json
+  last_updated_by: Ludovic Valente
+  last_updated_on: 2017-08-17 13:40:08.000000000 Z
+- name: eslint-config-standard
+  description: JavaScript Standard Style - ESLint Shareable Config
+  package_url: https://www.npmjs.com/eslint-config-standard
+  version: 6.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15872/default_e4668902f8489350db9b0fb228523a571ef05b26.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: eslint-friendly-formatter
+  description: Simple formatter/reporter for eslint that's friendly with Sublime Text
+    and iterm2 'click to open file' functionality
+  package_url: https://www.npmjs.com/eslint-friendly-formatter
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16184/default_351a89f21bfb241e8dabeb1444cf56f529948708.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: eslint-loader
+  description: ESlint loader for webpack
+  package_url: https://www.npmjs.com/eslint-loader
+  version: 1.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15889/default_724d5bc657ec09174564f19f2a5d26098549124a.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: eslint-plugin-html
+  description: A ESLint plugin to lint and fix inline scripts contained in HTML files
+  package_url: https://www.npmjs.com/eslint-plugin-html
+  version: 3.2.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16129/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 1.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: api/package-lock.json
+  detection_source: api/package.json
+  last_updated_by: Ludovic Valente
+  last_updated_on: 2017-08-17 13:40:08.000000000 Z
+- name: eslint-plugin-promise
+  description: Enforce best practices for JavaScript promises
+  package_url: https://www.npmjs.com/eslint-plugin-promise
+  version: 3.5.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15885/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: eslint-plugin-standard
+  description: ESlint Plugin for the Standard Linter
+  package_url: https://www.npmjs.com/eslint-plugin-standard
+  version: 2.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15884/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: eventsource-polyfill
+  description: A browser polyfill for W3C EventSource
+  package_url: https://www.npmjs.com/eventsource-polyfill
+  version: 0.9.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16253/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.15.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: api/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Ludovic Valente
+  last_updated_on: 2017-08-17 13:40:08.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+- name: extract-text-webpack-plugin
+  description: Extract text from bundle into a file
+  package_url: https://www.npmjs.com/extract-text-webpack-plugin
+  version: 2.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15855/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: file-loader
+  description: A file loader module for webpack
+  package_url: https://www.npmjs.com/file-loader
+  version: 0.11.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15834/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: friendly-errors-webpack-plugin
+  description: Recognizes certain classes of webpack errors and cleans
+  package_url: https://www.npmjs.com/friendly-errors-webpack-plugin
+  version: 1.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16091/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: html-webpack-plugin
+  description: Simplifies creation of HTML files to serve your webpack bundles
+  package_url: https://www.npmjs.com/html-webpack-plugin
+  version: 2.30.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15841/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: http-proxy-middleware
+  description: The one-liner node.js proxy middleware for connect
+  package_url: https://www.npmjs.com/http-proxy-middleware
+  version: 0.17.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16167/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: joi
+  description: Object schema validation
+  package_url: https://www.npmjs.com/joi
+  version: 9.2.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16173/default_351a89f21bfb241e8dabeb1444cf56f529948708.png
+  detection_source_url: api/package-lock.json
+  detection_source: api/package.json
+  last_updated_by: Ludovic Valente
+  last_updated_on: 2017-08-17 13:40:08.000000000 Z
+- name: multer
+  description: Middleware for handling `multipart/form-data`
+  package_url: https://www.npmjs.com/multer
+  version: 1.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16421/default_23e0dabcd0197f0c1f0a41268f8ca3f7e8b1f1e2.png
+  detection_source_url: api/package-lock.json
+  detection_source: api/package.json
+  last_updated_by: Ludovic Valente
+  last_updated_on: 2017-08-17 13:40:08.000000000 Z
+- name: node-sass
+  description: Wrapper around libsass
+  package_url: https://www.npmjs.com/node-sass
+  version: 4.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15827/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+  vulnerabilities:
+  - name: Improper Certificate Validation in node-sass
+    cve_id: CVE-2020-24025
+    cve_url: https://github.com/advisories/GHSA-r8f7-9pfq-mjmv
+    detected_date: Feb 10
+    severity: moderate
+    first_patched: 7.0.0
+  - name: Denial of Service in node-sass
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-9v62-24cr-58cx
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.13.1
+- name: opn
+  description: Open stuff like URLs, files, executables. Cross-platform
+  package_url: https://www.npmjs.com/opn
+  version: 5.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16099/default_efe4f0184d007a28e793d89a59e058b742bc9177.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2016-09-06 06:56:36.000000000 Z
+- name: optimize-css-assets-webpack-plugin
+  description: A Webpack plugin to optimize \ minimize CSS assets
+  package_url: https://www.npmjs.com/optimize-css-assets-webpack-plugin
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15964/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: ora
+  description: Elegant terminal spinner
+  package_url: https://www.npmjs.com/ora
+  version: 1.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15937/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2016-09-06 06:56:36.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 2.6.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: api/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: sass-loader
+  description: Sass loader for webpack
+  package_url: https://www.npmjs.com/sass-loader
+  version: 6.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: serve-static
+  description: Serve static files
+  package_url: https://www.npmjs.com/serve-static
+  version: 1.12.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16295/default_f04d39fc656c2e32ee1b9d3875a3002459aa3b69.png
+  detection_source_url: api/package-lock.json
+  detection_source: api/package.json
+  last_updated_by: Ludovic Valente
+  last_updated_on: 2017-08-17 13:40:08.000000000 Z
+- name: sharp
+  description: High performance Node.js image processing
+  package_url: https://www.npmjs.com/sharp
+  version: 0.16.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16806/default_31a4e0e11d348225088320f3a5c5ea6fa49c27ad.png
+  detection_source_url: api/package-lock.json
+  detection_source: api/package.json
+  last_updated_by: Ludovic Valente
+  last_updated_on: 2017-08-17 13:40:08.000000000 Z
+  vulnerabilities:
+  - name: sharp vulnerable to Command Injection in post-installation over build environment
+    cve_id: CVE-2022-29256
+    cve_url: https://github.com/advisories/GHSA-gp95-ppv5-3jc5
+    detected_date: Jun 2
+    severity: moderate
+    first_patched: 0.30.5
+- name: shelljs
+  description: Portable Unix shell commands for Node.js
+  package_url: https://www.npmjs.com/shelljs
+  version: 0.7.8
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15897/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: api/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+  vulnerabilities:
+  - name: Improper Privilege Management in shelljs
+    cve_id: CVE-2022-0144
+    cve_url: https://github.com/advisories/GHSA-4rq4-32rv-6wp6
+    detected_date: Jan 22
+    severity: high
+    first_patched: 0.8.5
+  - name: Improper Privilege Management in shelljs
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-64g7-mvw6-v9qj
+    detected_date: Jan 15
+    severity: moderate
+    first_patched: 0.8.5
+- name: url-loader
+  description: A loader for webpack which transforms files into base64 URIs
+  package_url: https://www.npmjs.com/url-loader
+  version: 0.5.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15858/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: api/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 12:02:20.000000000 Z
+- name: vue
+  description: Vue
+  package_url: https://www.npmjs.com/vue
+  version: 2.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2016-09-06 06:56:36.000000000 Z
+- name: vue-loader
+  description: "&gt; webpack loader for Vue Single-File Components"
+  package_url: https://www.npmjs.com/vue-loader
+  version: 12.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15901/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: vue-resource
+  description: The HTTP client for Vue.js
+  package_url: https://www.npmjs.com/vue-resource
+  version: 1.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17154/default_fbe883dfc6d978f82179fa11bdf634af1b6751fa.png
+  detection_source_url: demo/package-lock.json
+  detection_source: demo/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: vue-router
+  description: Official router for Vue.js 2
+  package_url: https://www.npmjs.com/vue-router
+  version: 2.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15969/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/unidirectional-flow/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: vue-style-loader
+  description: Vue.js style loader module for webpack
+  package_url: https://www.npmjs.com/vue-style-loader
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16024/default_5a461d436012a0c4024534aaba303dcdb0297d24.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: vue-template-compiler
+  description: Template compiler for Vue 2.0
+  package_url: https://www.npmjs.com/vue-template-compiler
+  version: 2.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15850/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: webpack-bundle-analyzer
+  description: Webpack plugin and CLI utility that represents bundle content as convenient
+    interactive zoomable treemap
+  package_url: https://www.npmjs.com/webpack-bundle-analyzer
+  version: 2.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15991/default_cbd6c289400672b291755183817e9dd6abe1a612.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+  vulnerabilities:
+  - name: Cross-Site Scripting in webpack-bundle-analyzer
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-pgr8-jg6h-8gw6
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 3.3.2
+- name: webpack-dev-middleware
+  description: A development middleware for webpack
+  package_url: https://www.npmjs.com/webpack-dev-middleware
+  version: 1.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16020/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: webpack-hot-middleware
+  description: Webpack hot reloading you can attach to your own server
+  package_url: https://www.npmjs.com/webpack-hot-middleware
+  version: 2.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16052/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
+- name: webpack-merge
+  description: Variant of merge that's useful for webpack configuration
+  package_url: https://www.npmjs.com/webpack-merge
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15925/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: demo/package-lock.json
+  detection_source: exercise-files/update-products/package.json
+  last_updated_by: Marcus Lindfeldt
+  last_updated_on: 2017-08-20 11:34:45.000000000 Z
